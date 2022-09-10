@@ -154,6 +154,42 @@ footer {
 
 /* ----------------------------------------------------------------- */
 
+/* ----------------------------------------------------------------- */
+
+@media screen and (max-width: 1000px) {
+    .describ section {
+        margin-top: 35vh;
+    }
+
+
+    .flex-parent {
+        /* padding-left: 15vw; */
+        width: auto;
+        overflow-wrap: break-word;
+        overflow: auto;
+        font-size: 1.5vw;
+    }
+
+    .flex-parent section {
+        background-color: rgba(0, 247, 255, 0.301);
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        margin-left: 10px;
+        /* border-left: 5px rgb(255, 136, 0) solid; */
+    }
+
+
+    .flex-parent img {
+        width: 150px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    
+}
+
+/* ----------------------------------------------------------------- */
+
 @media screen and (max-width: 700px) {
     header ul li {
         list-style: none;
